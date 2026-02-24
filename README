@@ -8,7 +8,7 @@ Run an [s&box](https://sbox.game) dedicated server on Linux using Docker and Win
 
 [s&box](https://sbox.game) is a game creation platform developed by Facepunch Studios. It allows developers to build and publish entirely custom games — with their own rules, assets, and UX — using C# and a built-in scene editor. Players can hop between community-made games without ever leaving the platform. Dedicated servers are hosted per-game and are used to run persistent multiplayer sessions.
 
-- **Engine:** s&box (Facepunch Studios)
+- **Engine:**
 - **Scripting:** C# (.NET 10)
 - **Server binary:** `sbox-server.exe` (Windows PE, Steam App ID `1892930`)
 - **Default ports:** `27015` (game), `27016` (RCON/query)
@@ -44,8 +44,8 @@ On every container start, SteamCMD verifies and updates the server installation 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourorg/s-oss-wine-docker-sbox-dedicated-setup.git
-cd s-oss-wine-docker-sbox-dedicated-setup
+git clone https://github.com/Lone-Pine-inc/S-OSS-WineDockerS-boxDedicatedSetup.git
+cd S-OSS-WineDockerS-boxDedicatedSetup-main
 ```
 
 ### 2. Create your environment file
